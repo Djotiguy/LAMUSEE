@@ -6,7 +6,7 @@ use App\Entity\Pictures;
 use Doctrine\Persistence\ManagerRegistry;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
-use Symfony\Component\HttpFoundation\Response; // N'oubliez pas d'importer Response
+use Symfony\Component\HttpFoundation\Response; 
 
 class HomeController extends AbstractController
 {

@@ -17,7 +17,7 @@ class HomeController extends AbstractController
         $pictures = $picturesRepository->findAll();
 
         return $this->render('index/index.html.twig', [
-            'picture' => $pictures,
+            'Pictures' => $pictures,
         ]); 
     }
 }
